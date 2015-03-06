@@ -48,6 +48,7 @@ class Solution:
             visited[i][j+1] = 0
         return False
 
+# another modify sign http://www.cnblogs.com/zuoyuan/p/3769767.html
 board = ['ABCE', 'SFCS', 'ADEE']
 test = Solution()
 word = ['SEE', 'ABCCED']
